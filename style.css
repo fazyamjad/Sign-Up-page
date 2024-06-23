@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+.outerbox
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #00f2ff, #00807c);
+   
+}
+.innerbox
+{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px   #00f2ff;
+    z-index: 2;
+}
+.Signupheader h1{
+    font-size: 2rem;
+    color: black;
+}
+.Signupheader p{
+    color: darkgreen;
+}
+.Signupmain p{
+    margin: 10px 0;
+}
+.Signupmain p input{
+    width: 100%;
+    font-size: 1rem;
+    
+}
+.Signupmain p input[type="submit"]{
+    border: none;
+    color: white;
+    background-color: darkcyan;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.Signupmain label{
+    font-weight: bold;
+}
+.Signupmain{
+    margin: 20px 0;
+}
+.Signupmain p input[type="submit"]:hover{
+    color: darkgrey;
+}
+.Signupfooter{
+    text-align: center;
+    color: #555;
+}
+.Signupfooter p a{
+    color: darkcyan;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff, #ffffff33);
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
